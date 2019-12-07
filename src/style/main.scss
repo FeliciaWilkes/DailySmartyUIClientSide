@@ -34,5 +34,9 @@ $color-gray-one: #666666;
 $color-gray-two: #b3b3b3;
 $color-blue-one: #0079ff;
 
+@import "./mixins";
 @import "./searchBar.scss";
-@import "./recentPosts";
+@import "./recentPosts.scss";
+@import "./post.scss";
+@import "./home.scss";
+@import "./results.scss";
